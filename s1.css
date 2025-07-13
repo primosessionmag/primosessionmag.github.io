@@ -1,0 +1,183 @@
+.sidebar {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 1000px;
+ 
+    position: absolute;
+    top: 0px;
+    float: right;
+    margin-top: 100px;
+    padding-top: 40px;
+    box-shadow: -1px -0px rgb(202, 202, 202);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 0%;
+    left:67%;
+    padding-bottom: 5%;
+    font-weight:700;
+    
+    }
+    
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
+    
+    .body-text {
+    margin-right: 150px;
+    font-size: 18px;
+    
+    }
+    
+    header{
+        padding:8px;
+        font-size:24px;
+        display:block;
+        background-color: rgb(51, 51, 51);
+        position:fixed;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .navbar{
+        position:fixed;
+        overflow: hidden;
+        top:0;
+        box-shadow: 0px 2px rgb(228, 228, 228);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        z-index: 1;
+        background-color: white;
+        
+    }
+
+    .navbar a{
+        float:left;
+        text-align: center;
+        padding: 28px 48px;
+        color: rgb(21, 21, 21);
+        display: block;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar img{
+        float:left;
+        text-align: center;
+        padding: 28px 48px;
+        display: block;
+    }
+    a:link { text-decoration: none;
+    color: black;
+    font-weight: 700; }
+
+
+a:visited { text-decoration: none; 
+    color: black;
+    font-weight: 700; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+    .navbar a:hover{
+        background: rgb(235, 235, 235);
+        color: rgb(51, 51, 51);
+    }
+
+    body{
+        margin-top: 120px;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-left: 0%;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    
+    footer{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 90%;
+    }
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 0px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 0px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  html {
+    
+    background-image: url("bgcono2.png");
+    background-size:contain;
+  }
+
+  p{
+    text-indent: 4%;
+    padding-right: 25%;
+    line-height: 1.8;
+    font-size: 12pt;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0px 0px;
+  }
+  
+  button.accordion {
+    width: 75%;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    content: '+';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: '-';
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
