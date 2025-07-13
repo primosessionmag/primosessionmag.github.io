@@ -181,3 +181,9 @@ a:active { text-decoration: none; }
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
   }
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
