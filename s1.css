@@ -185,5 +185,6 @@ a:active { text-decoration: none; }
 @media (max-width: 768px) {
     .sidebar {
         display: none;
+        visibility: hidden;
     }
 }
